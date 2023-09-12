@@ -5,8 +5,8 @@
 Aplicação de Gerenciamento de Cartões de Crédito para Clientes.
 
 ## 📱 Funcionalidades do Projeto 
--[x]Cadastro Clientes
--[x] Cadastro Cartões 
+- Cadastro Clientes
+- Cadastro Cartões 
 
 ## 🛠️ Tecnologias Utilizadas 
 1. Java
