@@ -12,7 +12,7 @@
 	<artifactId>msavaliadorcredito</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>msavaliadorcredito</name>
-	<description>Avaliador Crédito</description>
+	<description>Avaliador Credito</description>
 	<properties>
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.1</spring-cloud.version>
@@ -22,9 +22,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 
 		<dependency>
