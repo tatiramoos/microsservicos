@@ -9,8 +9,8 @@ Aplicação de Gerenciamento de Cartões de Crédito para Clientes.
 - Cadastro Cartões 
 
 ## 🛠️ Tecnologias Utilizadas 
-1. Java
-2. Spring Boot
-3. Spring Cloud
-4. RabbitMQ
-5. KeyCloak 
+- Java
+- Spring Boot
+- Spring Cloud
+- RabbitMQ
+- KeyCloak 
