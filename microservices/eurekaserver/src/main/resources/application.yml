@@ -6,7 +6,7 @@ spring:
       enabled: true
     user:
       name: cursoms-eureka-user
-      password: ecok-usr-eeuramssur
+      password: ecok-usr-eeuramssurr
 
 server:
   port: 8761
