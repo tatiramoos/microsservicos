@@ -21,6 +21,6 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-        defaultZone: http://cursoms-eureka-user:ecok-usr-euramssur@${EUREKA_SERVER}:8761/eureka
+        defaultZone: http://cursoms-eureka-user:ecok-usr-euramssur@localhost:8761/eureka
 
 
