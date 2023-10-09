@@ -50,3 +50,14 @@
 2023-10-09 18:24:25.089  INFO 54334 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2023-10-09 18:29:25.092  INFO 54334 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2023-10-09 18:34:25.098  INFO 54334 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-10-09 19:08:38.449  INFO 65936 --- [main] c.t.m.MsavaliadorcreditoApplicationTests : Starting MsavaliadorcreditoApplicationTests using Java 19.0.2 on MacBook-Air-de-Tatiane.local with PID 65936 (started by tatiramos in /Users/tatiramos/Documents/cursos/microsservicos/microservices/projeto-microsservicos/msavaliadorcredito)
+2023-10-09 19:08:38.451  INFO 65936 --- [main] c.t.m.MsavaliadorcreditoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-10-09 19:08:39.000  INFO 65936 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fefe2e0c-222b-3f01-b900-d292a6e2cac0
+2023-10-09 19:08:39.305  INFO 65936 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2023-10-09 19:08:39.361  INFO 65936 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2023-10-09 19:08:40.409  INFO 65936 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-10-09 19:08:40.439  WARN 65936 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-10-09 19:08:40.446  INFO 65936 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-10-09 19:08:40.496  INFO 65936 --- [main] c.t.m.MsavaliadorcreditoApplicationTests : Started MsavaliadorcreditoApplicationTests in 7.233 seconds (JVM running for 7.657)
+2023-10-09 19:08:40.708  INFO 65936 --- [SpringApplicationShutdownHook] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-10-09 19:08:40.710  INFO 65936 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN

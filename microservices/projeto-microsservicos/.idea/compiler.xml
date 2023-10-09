@@ -6,8 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="projeto-microsservicos" />
+        <module name="eurekaserver" />
+        <module name="mscartoes" />
+        <module name="mscloudgateway" />
+        <module name="msavaliadorcredito" />
+        <module name="msclientes" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eurekaserver" options="-parameters" />
+      <module name="msavaliadorcredito" options="-parameters" />
+      <module name="mscartoes" options="-parameters" />
+      <module name="msclientes" options="-parameters" />
+      <module name="mscloudgateway" options="-parameters" />
+    </option>
   </component>
 </project>
